@@ -56,18 +56,8 @@ module.exports = {
         new webpack.optimize.CommonsChunkPlugin('vendor', '[name].js'),
         new extractTextPlugin('[name].css')/*,
         new htmlWebpackPlugin({
-            'filename': 'manager.html',
-            'template': 'src/assets/static/manager.html',
-            'inject': 'body'
-        }),
-        new htmlWebpackPlugin({
-            'filename': 'backoffice.html',
-            'template': 'src/assets/static/backoffice.html',
-            'inject': 'body'
-        }),
-        new htmlWebpackPlugin({
-            'filename': 'grid.html',
-            'template': 'src/assets/static/grid.html',
+            'filename': 'index.html',
+            'template': 'src/assets/static/index.html',
             'inject': 'body'
         })*/
     ]
